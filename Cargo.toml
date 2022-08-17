@@ -1,7 +1,13 @@
 [package]
+authors = ["Jannik Schmied <jannik.schmied@pm.me>"]
+description = "Library for CAN connection and security testing"
 name = "libcanconnect"
-version = "0.1.0"
 edition = "2021"
+version = "0.1.0"
+readme = "README.md"
+keywords = ["CAN", "CAN-Bus", "CAN-Security", "CAN-Connect", "CAN-Connect-Library"]
+license = "GNU General Public License v3.0"
+license-file = "LICENSE"
 
 [dependencies]
 socketcan = "1.7.0"
